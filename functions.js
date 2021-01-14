@@ -8,10 +8,16 @@ function show(id) {
 }
 
 function hideAllPages() {
-    hide('home');
-    hide("skills");
-    hide("languages");
-    hide("projects");
+    var pagesIds = [
+        "home", "skills", "languages", "projects"
+    ];
+    console.debug(pagesIds);
+
+    //  initial  ; condition          ; post exectuion
+    for(var i = 0; i < pagesIds.length; i++) {
+        console.info('i = ', i);
+        hide(pagesIds[i]);
+    }
 }
 
 function showHomePage() {
