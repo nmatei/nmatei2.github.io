@@ -5,4 +5,4 @@
 - [x] improve menu clicks link.innerHTML.toLowerCase();
 - [x] fetch skills from external json file
 - [x] show different ui for favorite-skill
-- [ ] sort by nr of endorsements
+- [x] sort by nr of endorsements
