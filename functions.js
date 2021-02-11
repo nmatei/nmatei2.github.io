@@ -41,7 +41,6 @@ var allSkills = [
 
 function showSkills(skills) {
     var allSkillsHtml = skills.map(function(skill){
-        // TODO class="favorite-skill"
         return `<li>${skill.name} <span>(${skill.endorsements})</span></li>`;
     });
     
